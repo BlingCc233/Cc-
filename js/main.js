@@ -286,11 +286,11 @@ $('#switchmore').on('click', function () {
     if (shoemore && $(document).width() >= 990) {
         $('#container').attr('class', 'container mores');
         $("#change").html("Oops&nbsp;!");
-        $("#change1").html("哎呀，这都被你发现了（ 再点击一次可关闭 ）");
+        $("#change1").html("哼，哼，啊啊 啊，这都被你发现了（ 压力马斯内 ）");
     } else {
         $('#container').attr('class', 'container');
         $("#change").html("Hello&nbsp;World&nbsp;!");
-        $("#change1").html("一个无名小卒的主页");
+        $("#change1").html("18岁，是大学生");
     }
 });
 
@@ -339,7 +339,7 @@ window.addEventListener('load', function () {
             //移动端隐藏更多页面
             $('#container').attr('class', 'container');
             $("#change").html("Hello&nbsp;World&nbsp;!");
-            $("#change1").html("一个无名小卒的主页");
+            $("#change1").html("18岁，是大学生");
 
             //移动端隐藏弹窗页面
             $('#box').css("display", "none");
