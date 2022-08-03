@@ -88,7 +88,8 @@ function setBgImgInit() {
 
     switch (bg_img["type"]) {
         case "1":
-            $('#bg').attr('src', `./img/background${6 + ~~(Math.random() * 5)}.webp`) //随机默认壁纸
+            //$('#bg').attr('src', `./img/background${6 + ~~(Math.random() * 5)}.webp`) //随机默认壁纸
+			$('#bg').attr('src', `./img/bg.png`)
             break;
         case "2":
             $('#bg').attr('src', bg_img_preinstall[2]); //必应每日

@@ -285,7 +285,7 @@ $('#switchmore').on('click', function () {
     shoemore = !shoemore;
     if (shoemore && $(document).width() >= 990) {
         $('#container').attr('class', 'container mores');
-        $("#change").html("Oops&nbsp;!");
+        $("#change").html("114514&nbsp;!");
         $("#change1").html("哼，哼，啊啊 啊，这都被你发现了（ 压力马斯内 ）");
     } else {
         $('#container').attr('class', 'container');
@@ -394,14 +394,14 @@ color: rgb(30,152,255);
 let title1 = 'Cc的主页'
 let title2 = `
      ________________  
-    /                \ 
-   /     _________    \
+    /                \\ 
+   /     _________    \\
   |    /          /___/
   |    |               
   |    |           ___ 
-  |    \ ________ \   \
-   \                  /
-    \________________/ 
+  |    \\ ________ \\   \\
+   \\                  /
+    \\________________/ 
 `
 let content = `
 版 本 号：3.4
