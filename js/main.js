@@ -19,6 +19,7 @@ iziToast.settings({
 });
 
 /* 鼠标样式 */
+
 const body = document.querySelector("body");
 const element = document.getElementById("g-pointer-1");
 const element2 = document.getElementById("g-pointer-2");
