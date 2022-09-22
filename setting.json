@@ -11,7 +11,7 @@
     "bilibili": "104330297",
     "telegram": "BlingCc233",
     "link_1": [
-        "https://blingcc233.github.io/",
+        "https://blog.blingcc.eu.org/",
         "fa-solid fa-blog",
         "博客"
     ],
@@ -26,9 +26,9 @@
         "网易云"
     ],
     "link_4": [
-        "https://limestart.cn/",
-        "fa-solid fa-compass",
-        "起始页"
+        "https://cloud.blingcc.eu.org",
+        "fa-solid fa-cloud",
+        "网盘"
     ],
     "link_5": [
         "https://ip.skk.moe/",
@@ -36,7 +36,7 @@
         "Ip测试"
     ],
     "link_6": [
-        "./tro.txt",
+        "./404.html",
         "fa fa-unlock-alt",
         "实验室"
     ]
