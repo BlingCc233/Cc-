@@ -216,7 +216,7 @@ span.img-text {
     backdrop-filter: blur(10px);
     /*margin: 0.5rem;*/
     padding: 1rem;
-    border-radius: 6px;
+    border-radius: 20px;
     margin-top: 3.5rem;
     max-width: 460px;
     cursor: pointer;
@@ -278,7 +278,7 @@ span#change {
     background: rgb(0 0 0 / 25%);
     backdrop-filter: blur(10px);
     padding: 20px;
-    border-radius: 6px;
+    border-radius: 20px;
     height: 165px;
     display: flex;
     justify-content: center;
@@ -339,7 +339,7 @@ span#change {
     background: rgb(0 0 0 / 25%);
     backdrop-filter: blur(10px);
     padding: 20px;
-    border-radius: 6px;
+    border-radius: 20px;
     height: 165px;
     display: flex;
     justify-content: center;
@@ -391,7 +391,7 @@ span#change {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 6px;
+    border-radius:20px;
     padding: 6px 10px;
 }
 
@@ -402,7 +402,7 @@ span#change {
 #last,
 #next {
     font-size: 1.75rem;
-    border-radius: 6px;
+    border-radius: 20px;
     padding: 6px 10px;
 }
 
@@ -435,7 +435,7 @@ span#change {
 #music-close {
     background: rgb(255 255 255 / 15%);
     padding: 2px 8px;
-    border-radius: 6px;
+    border-radius: 20px;
     margin: 0px 6px;
     text-overflow: ellipsis;
     overflow-x: hidden;
@@ -509,7 +509,7 @@ input[type=range]::-webkit-slider-thumb {
     background: rgb(0 0 0 / 25%);
     backdrop-filter: blur(10px);
     padding: 20px;
-    border-radius: 6px;
+    border-radius: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -551,7 +551,7 @@ i.iconfont.icon-link {
 .link-card {
     height: 100px;
     width: 100%;
-    border-radius: 6px;
+    border-radius: 20px;
     background: rgb(0 0 0 / 25%);
     backdrop-filter: blur(10px);
     display: flex;
@@ -595,7 +595,7 @@ i.iconfont.icon-z_shangpinheji {
     background: rgb(0 0 0 / 25%);
     backdrop-filter: blur(10px);
     top: 7%;
-    border-radius: 6px;
+    border-radius: 20px;
     padding: 30px;
 }
 
@@ -688,7 +688,7 @@ i.iconfont.icon-z_shangpinheji {
     width: 80%;
     height: 80%;
     background: rgb(255 255 255 / 40%);
-    border-radius: 6px;
+    border-radius: 20px;
     -webkit-animation: fade .3s;
     animation: fade .3s;
     padding: 40px;
@@ -712,7 +712,7 @@ i.iconfont.icon-z_shangpinheji {
 }
 
 .accordion-item:first-of-type .accordion-button {
-    border-radius: 8px;
+    border-radius: 20px;
 }
 
 .accordion-button {
@@ -726,7 +726,7 @@ i.iconfont.icon-z_shangpinheji {
     border-color: #ffffff26 !important;
     outline: none !important;
     box-shadow: none !important;
-    border-radius: 8px;
+    border-radius: 20px;
     transition: 0.3s;
 }
 
@@ -739,7 +739,7 @@ i.iconfont.icon-z_shangpinheji {
 }
 
 .accordion-button::after {
-    border-radius: 8px;
+    border-radius: 20px;
     background-image: none !important;
 }
 
@@ -747,7 +747,7 @@ i.iconfont.icon-z_shangpinheji {
     padding: 1rem 0rem !important;
     border-top-left-radius: 0px !important;
     border-top-right-radius: 0px !important;
-    border-radius: 8px;
+    border-radius: 20px;
     background-color: #ffffff10;
 }
 
@@ -859,7 +859,7 @@ input[type="radio"]:checked+label {
 .aplayer {
     background: transparent !important;
     width: 100%;
-    border-radius: 6px !important;
+    border-radius: 20px !important;
     margin-right: 18px;
 }
 
