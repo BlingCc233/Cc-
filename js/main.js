@@ -122,8 +122,8 @@ $('#hitokoto').click(function () {
     } else {
         iziToast.show({
             timeout: 1000,
-            icon: "fa-solid fa-circle-exclamation",
-            message: '你点太快了吧'
+            icon: "fa-solid fa-circle-check",
+            message: '每日亿言'
         });
     }
 });
@@ -373,7 +373,7 @@ document.oncontextmenu = function () {
     iziToast.show({
         timeout: 2000,
         icon: "fa-solid fa-circle-exclamation",
-        message: '为了浏览体验，本站禁用右键'
+        message: '给你右键都扣咯'
     });
     return false;
 }
@@ -403,13 +403,22 @@ let title2 = `
   |    \\ ________ \\   \\
    \\                  /
     \\________________/ 
+    ________________  
+   /                \\ 
+  /     _________    \\
+ |    /          /___/
+ |    |               
+ |    |           ___ 
+ |    \\ ________ \\   \\
+  \\                  /
+   \\________________/ 
 `
 let content = `
-版 本 号：3.4
+版 本 号：2022
 更新日期：2022-07-24
 
-主页:  https://blingcc233.github.io/
-Github:  https://blingcc233.github.io/
+主页:  https://blingcc.eu.org/
+Github: https://github.com/blingcc233/
 `
 console.log(`%c${title1} %c${title2}
 %c${content}`, styleTitle1, styleTitle2, styleContent)

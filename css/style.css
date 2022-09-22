@@ -696,16 +696,16 @@ i.iconfont.icon-z_shangpinheji {
     flex-direction: row;
     justify-content: space-between;
 }
-
+/*
 #accordion {
-    min-width: 360px;
+    min-width: 0px;
     margin-right: 40px;
     margin-top: 20px;
     margin-left: 14px;
     border-radius: 8px;
     box-shadow: 0 2px 2px 0 rgb(0 0 0 / 7%), 0 1px 5px 0 rgb(0 0 0 / 10%);
 }
-
+*/
 .accordion-item {
     background-color: transparent !important;
     border: none !important;
@@ -745,6 +745,9 @@ i.iconfont.icon-z_shangpinheji {
 
 .accordion-body {
     padding: 1rem 0rem !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-radius: 8px;
     background-color: #ffffff10;
 }
 
@@ -845,7 +848,7 @@ input[type="radio"]:checked+label {
 
 /*Aplayer*/
 .box-right {
-    flex: 0 54%;
+    flex: 0%;
     max-width: 54%;
     display: flex;
     flex-direction: row;

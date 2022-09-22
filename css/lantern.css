@@ -12,6 +12,10 @@
     z-index: 999
 }
 
+.non_believer{
+    /*TODO*/
+}
+
 .lantern__warpper.lantern__secondary {
     left: calc(100% - 130px)
 }
