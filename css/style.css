@@ -471,7 +471,7 @@ span#change {
 input[type=range] {
     -webkit-appearance: none;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
     height: 8px;
     background: rgb(255 255 255 / 15%);
 }
@@ -484,7 +484,7 @@ input[type=range]::-moz-range-thumb {
 input[type=range]::-webkit-slider-runnable-track,
 input[type=range]::-moz-range-track {
     height: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 input[type=range]:focus {
@@ -508,7 +508,7 @@ input[type=range]::-webkit-slider-thumb {
     width: 100%;
     background: rgb(0 0 0 / 25%);
     backdrop-filter: blur(10px);
-    padding: 20px;
+    padding: 16px;
     border-radius: 20px;
     text-align: center;
     display: flex;
@@ -528,6 +528,8 @@ span.time-text {
     flex-direction: row;
     justify-content: center;
 }
+
+
 
 /*分割线*/
 .line {
@@ -767,6 +769,49 @@ i.iconfont.icon-github1 {
     font-size: 1.45rem;
 }
 
+/*页首动画*/
+.loadingEight{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top:100px;
+    position: relative;
+    border:5px solid lightgreen;
+    -webkit-animation: turn 2s linear infinite;
+    margin-bottom: 200px;
+}
+.loadingEight span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: lightgreen;
+    position: absolute;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+    -webkit-animation: changeBgColor 2s linear infinite;
+}
+@-webkit-keyframes changeBgColor{
+    0%{
+        background: lightgreen;
+    }
+    100%{
+        background: lightblue;
+    }
+}
+@-webkit-keyframes turn{
+    0%{
+        -webkit-transform: rotate(0deg);
+        border-color: lightgreen;
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+        border-color: lightblue;
+    }
+}
+
 /*个性设置*/
 .set {
     display: flex;
@@ -822,7 +867,7 @@ i.iconfont.icon-github1 {
 input[type="radio"]+label {
     padding: 6px 10px;
     background: #ffffff26;
-    border-radius: 8px;
+    border-radius: 20px;
     transition: 0.3s;
     border: 2px solid transparent;
     width: 100%;
@@ -873,7 +918,7 @@ input[type="radio"]:checked+label {
 
 .aplayer.aplayer-withlrc .aplayer-info {
     background-color: #ffffff26;
-    border-radius: 6px;
+    border-radius: 0px;
 }
 
 /*歌曲名称*/
