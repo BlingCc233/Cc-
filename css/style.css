@@ -316,7 +316,7 @@ span#change {
     align-items: center;
     justify-content: center;
     background: rgb(0 0 0 / 15%);
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
     padding: 4px 0px;
     font-size: 0.95rem;
     animation: fade;
@@ -392,8 +392,8 @@ span#change {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius:20px;
-    padding: 6px 10px;
+    border-radius:90px;
+    padding: 10px 10px 10px 15px;
 }
 
 #play:hover {
@@ -403,8 +403,8 @@ span#change {
 #last,
 #next {
     font-size: 1.75rem;
-    border-radius: 20px;
-    padding: 6px 10px;
+    border-radius: 100px;
+    padding: 10px 15px 10px 15px;
 }
 
 #last:hover,
